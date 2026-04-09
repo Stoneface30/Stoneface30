@@ -10,13 +10,13 @@ Greystones, Co. Wicklow, Ireland &nbsp;·&nbsp; [![LinkedIn](https://img.shields
 
 ```mermaid
 flowchart LR
-    EDU["🎓 Engineering Foundation\n──────────────\nBAC STI Électrotechnique\nBTS IRIS\nThales · AFTI"]
-    BANK["🏦 Banking IT — Paris\n──────────────\nBNP Paribas\nNatixis\n2012 – 2014"]
-    MED["🏥 Medical IT\n──────────────\nDiagnostica STAGO\nInternational · 2,200 users\n2014 – 2016"]
-    HEAD["🖥️ Head of IT\n──────────────\nTCOAG · Stago Group\nBray, Ireland\n2016 – Present"]
-    SYS["⚙️ Autonomous Systems\n──────────────\nPython · AI Agents\nOrchestration Layers\nPersonal Projects"]
+    A[Engineering Foundation\nBAC STI - BTS IRIS\nThales - AFTI]
+    B[Banking IT\nBNP Paribas - Natixis\n2012-2014]
+    C[Medical IT\nDiagnostica STAGO\n2014-2016]
+    D[Head of IT\nTCOAG - Stago Group\n2016-Present]
+    E[Autonomous Systems\nPython - AI Agents\nPersonal Projects]
 
-    EDU --> BANK --> MED --> HEAD --> SYS
+    A --> B --> C --> D --> E
 ```
 
 ---
