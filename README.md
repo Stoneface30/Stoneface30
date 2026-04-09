@@ -28,12 +28,13 @@ flowchart LR
 | **Polybot** | Autonomous multi-engine prediction system with capital allocation, verification gates, and fail-safe execution |
 | **PantryAI** | Household decision engine combining structured inventory data, meal planning, and real-time price intelligence |
 | **Sovereign OS** | Personal agent orchestration layer with persistent memory, self-learning, and multi-agent coordination |
-| **Sovereign Dungeon** | Real-time observability interface over agent state, execution flow, and system logs |
+| **StonyClaw Castle** | Real-time pixel-art interface over agent state, execution flow, and system logs |
 | **Magic Mirror** | Embedded information display system integrating home automation data and AI-curated feeds via MQTT |
 | **Home Assistant** | Large-scale home automation platform with entity orchestration, presence logic, and energy-aware control |
 | **Finance App** | Local-first financial analysis system for transaction normalisation and multi-account tracking |
+| [**StonyClaw Showcase**](https://github.com/Stoneface30/stonyclaw-showcase) | Public pre-alpha release — open access build of the StonyClaw Castle interface |
 
-> All systems are private. Descriptions reflect architecture and purpose only.
+> Systems are private unless linked. Descriptions reflect architecture and purpose only.
 
 ---
 
