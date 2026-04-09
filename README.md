@@ -8,9 +8,15 @@ Greystones, Co. Wicklow, Ireland &nbsp;·&nbsp; [![LinkedIn](https://img.shields
 
 ## Career Arc
 
-`Engineering` → `Banking IT` → `Medical IT` → `Head of IT` → `Autonomous Systems`
-
-BAC STI · BTS IRIS · Thales apprenticeship → BNP Paribas · Natixis → Diagnostica STAGO → TCOAG (Stago Group) → Python · AI Agents
+```mermaid
+flowchart LR
+    EDU["🎓 Engineering Foundation<br/>──────────────<br/>BAC STI Électrotechnique<br/>BTS IRIS · Thales · AFTI"]
+    BANK["🏦 Banking IT — Paris<br/>──────────────<br/>BNP Paribas · Natixis<br/>2012 – 2014"]
+    MED["🏥 Medical IT<br/>──────────────<br/>Diagnostica STAGO<br/>2,200 users · 2014 – 2016"]
+    HEAD["🖥️ Head of IT<br/>──────────────<br/>TCOAG · Stago Group<br/>Bray, Ireland · 2016 – Present"]
+    SYS["⚙️ Autonomous Systems<br/>──────────────<br/>Python · AI Agents<br/>Orchestration Layers"]
+    EDU --> BANK --> MED --> HEAD --> SYS
+```
 
 ---
 
