@@ -22,9 +22,45 @@ flowchart LR
 
 ## Sovereign OS — Stack
 
-<p align="center">
-  <img src="assets/sovereign-os-graph.svg" alt="Sovereign OS knowledge graph — local AI orchestration layer" width="100%">
-</p>
+```mermaid
+graph LR
+    subgraph BRAIN["🧠 Intelligence Layer"]
+        CC["Claude Code\nAgent SDK"]
+        OL["Ollama\nLocal LLMs"]
+        CF["claude-flow\nSwarm Orchestration"]
+    end
+
+    subgraph MEMORY["💾 Memory Layer"]
+        QD["Qdrant\nVector Store"]
+        OB["Obsidian Vault\nKnowledge Graph"]
+        RF["RuFlo\nHNSW Memory"]
+    end
+
+    subgraph AUTOMATION["⚙️ Automation Layer"]
+        N8["n8n\nWorkflow Hub"]
+        HA["Home Assistant\nIoT Platform"]
+        MM["Magic Mirror\nAmbient Display"]
+    end
+
+    subgraph SYSTEMS["🚀 Personal Systems"]
+        PB["Polybot\nPrediction Engine"]
+        PA["PantryAI\nHousehold Engine"]
+        SC["StonyClaw\nPixel-art Interface"]
+    end
+
+    CC --> CF
+    CC --> QD
+    OL --> QD
+    OL --> CC
+    CF --> RF
+    N8 --> QD
+    N8 --> OB
+    N8 --> HA
+    HA --> MM
+    CF --> PB
+    CF --> PA
+    CF --> SC
+```
 
 > Local AI orchestration: Claude Code + Ollama + Qdrant + n8n + multi-agent crews. Everything runs on-prem. No cloud dependency.
 
