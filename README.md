@@ -29,7 +29,7 @@ flowchart LR
 > Local AI orchestration: Claude Code + Ollama + Qdrant + n8n + multi-agent crews. Everything runs on-prem. No cloud dependency.
 
 <p align="center">
-  <img src="assets/sovereign-os-demo.gif" alt="Sovereign OS — live demo" width="100%">
+  <img src="assets/sovereign-os-demo-v3.gif" alt="Sovereign OS — live demo" width="100%">
 </p>
 
 ---
