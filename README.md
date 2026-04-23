@@ -20,13 +20,17 @@ flowchart LR
 
 ---
 
-## Sovereign OS — Live
+## Sovereign OS — Stack
 
 <p align="center">
-  <img src="assets/sovereign-os-demo.gif" alt="Sovereign OS — local AI agent orchestration" width="100%">
+  <img src="assets/sovereign-os-graph.svg" alt="Sovereign OS knowledge graph — local AI orchestration layer" width="100%">
 </p>
 
 > Local AI orchestration: Claude Code + Ollama + Qdrant + n8n + multi-agent crews. Everything runs on-prem. No cloud dependency.
+
+<p align="center">
+  <img src="assets/sovereign-os-demo.gif" alt="Sovereign OS — live demo" width="100%">
+</p>
 
 ---
 
