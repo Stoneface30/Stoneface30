@@ -20,6 +20,16 @@ flowchart LR
 
 ---
 
+## Sovereign OS — Live
+
+<p align="center">
+  <img src="assets/sovereign-os-demo.gif" alt="Sovereign OS — local AI agent orchestration" width="100%">
+</p>
+
+> Local AI orchestration: Claude Code + Ollama + Qdrant + n8n + multi-agent crews. Everything runs on-prem. No cloud dependency.
+
+---
+
 ## Personal Technical Systems
 
 | System | Description |
