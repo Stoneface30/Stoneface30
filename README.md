@@ -34,7 +34,7 @@ flowchart LR
 
 | System | Description |
 |---|---|
-| **Sovereign OS** | Personal AI operating layer on Claude Code — parallel LLM reviewers, 3-layer memory, 124 active learning rules |
+| **Sovereign OS** | Personal AI operating layer on Claude Code — sequential Ollama review chain (qwen→gemma, load→review→unload), 3-layer memory, 163 active learning rules, pipeline status on every edit |
 | **Polymarket Bot** | Autonomous multi-engine prediction market system with capital allocation, verification gates, and fail-safe execution |
 | **Binance Bot** | Algorithmic crypto trading with multi-strategy execution and risk controls |
 | **Pantry AI** | Household decision engine combining structured inventory data, meal planning, and real-time price intelligence |
@@ -52,7 +52,8 @@ flowchart LR
 
 Every development session runs through **Sovereign OS** — a wiring harness on top of Claude Code:
 
-- Three models review every code edit in parallel (Ollama local + Gemini 2.5 Pro + Codex on security paths)
+- Sequential Ollama review chain per edit: qwen2.5-coder:7b (code patterns) then gemma4:e4b (reasoning), each loaded → reviewed → unloaded. Cross-process lock keeps multi-tab sessions VRAM-safe. Gemini 2.5 Pro and Codex run in parallel alongside.
+- Every hook event emits a visible status line — no silent failures, no flying blind on which reviewers fired
 - Prompt primer injects project context, active constraints, and stack info before every response
 - Three-layer memory (Qdrant semantic search · RuFlo HNSW · Obsidian Vault) keeps context across sessions
 - n8n automates file-change ingestion, session saves, and PR notifications via Telegram
