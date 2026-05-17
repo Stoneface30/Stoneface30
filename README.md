@@ -20,6 +20,18 @@ flowchart LR
 
 ---
 
+## Public Projects
+
+### IoT & Device Control
+- **[Roborock S5 → Valetudo](https://github.com/Stoneface30/roborock-s5-valetudo)** — Complete UART root + dual A/B partition flash to Valetudo 2026.02.0. 22× faster flashing via optimized block writes, zero cloud dependency, MQTT Home Assistant integration, custom GLaDOS voice pack. Full technical journey with blockers documented.
+
+### AI & Automation
+- **[StonyClaw Showcase](https://github.com/Stoneface30/stonyclaw-showcase)** — Live 30-agent AI system building a pixel-art kingdom in real-time. Watch it evolve at [showcase.conchita.uk](https://showcase.conchita.uk/showcase)
+
+- **[Quake Legacy](https://github.com/Stoneface30/quake-legacy)** — AI-powered fragmovie production system for Quake Live. Demo parsing, pattern recognition, automated rendering pipeline.
+
+---
+
 ## Sovereign OS — Personal AI Stack
 
 > Local AI orchestration: Claude Code + Ollama + Qdrant + n8n + multi-agent crews. Everything runs on-prem. No cloud dependency.
@@ -30,21 +42,32 @@ flowchart LR
 
 ---
 
-## Personal Technical Systems
+## Private Systems & Infrastructure
 
-| System | Description |
-|---|---|
-| **Sovereign OS** | Personal AI operating layer on Claude Code — sequential Ollama review chain (qwen→gemma, load→review→unload), 3-layer memory, 163 active learning rules, pipeline status on every edit |
-| **Polymarket Bot** | Autonomous multi-engine prediction market system with capital allocation, verification gates, and fail-safe execution |
-| **Binance Bot** | Algorithmic crypto trading with multi-strategy execution and risk controls |
-| **Pantry AI** | Household decision engine combining structured inventory data, meal planning, and real-time price intelligence |
-| **Quake Legacy** | AI-assisted game content creation suite — procedural generation and asset pipelines for Quake |
-| **Magic Mirror** | Embedded information display integrating Home Assistant, MQTT, and AI-curated feeds on Raspberry Pi |
-| **Home Assistant** | Large-scale home automation platform with entity orchestration, presence logic, and energy-aware control |
-| **Finance App** | Local-first financial analysis system for transaction normalisation and multi-account tracking |
-| [**StonyClaw Showcase**](https://github.com/Stoneface30/stonyclaw-showcase) | Public pre-alpha — pixel-art interface over agent state, execution flow, and system logs |
+I also maintain a range of private systems for personal infrastructure, experimentation, and autonomous decision-making:
 
-> Systems are private unless linked. Descriptions reflect architecture and purpose, not aspirations.
+**AI & Autonomous Systems**
+- **Sovereign OS** — Personal AI operating layer on Claude Code — sequential Ollama review chain (qwen→gemma), 3-layer memory (Qdrant · RuFlo · Obsidian Vault), 163 active learning rules, pipeline status visible on every edit
+- **Polymarket Bot** — Autonomous multi-engine prediction market system with capital allocation, verification gates, and fail-safe execution
+- **Binance Bot** — Algorithmic crypto trading with multi-strategy execution and risk management
+- **Pantry AI** — Household decision engine combining structured inventory data, meal planning, recipe sourcing, and real-time price intelligence
+
+**Hardware & Home Automation**
+- **GARDEN_CLAUDED** — Plant monitoring system with automated irrigation and sensor telemetry (Raspberry Pi, MQTT)
+- **ESP32_CLAUDED** — Embedded systems lab with 3 experimental boards and custom firmware
+- **Magic Mirror** — Embedded information display integrating Home Assistant, MQTT, and AI-curated feeds (Raspberry Pi)
+- **MEDIA_HUB_CLAUDED** — Plex setup with Real-Debrid + Zurg + Riven for unified media consumption
+- **NEST_CAM_CLAUDED** — De-Google Nest Cam Doorbell (local fallback + privacy layer)
+- **SAMSUNG_TV_CLAUDED** — Samsung Q80T developer access & PCM audio investigation
+- **Home Assistant** — Large-scale home automation platform with entity orchestration, presence logic, energy-aware control
+
+**Systems & Documentation**
+- **Finance App** — Local-first financial analysis system for transaction normalisation and multi-account tracking
+- **email-intelligence** — Intelligent email processing and insights system
+- **Repo-Work** — Engineering documentation and procedures for industrial system recovery projects
+- **portfolio** — Professional portfolio system
+
+> Private systems are not accessible. Descriptions reflect current architecture and purpose. All systems emphasize local-first, zero-cloud-dependency design.
 
 ---
 
